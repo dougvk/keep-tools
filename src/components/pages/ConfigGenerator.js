@@ -52,7 +52,7 @@ const MAINNET_BEACON_TEMPLATE = (v) =>
 [LibP2P]
   Peers = ["/ip4/54.39.179.73/tcp/3919/ipfs/16Uiu2HAkyYtzNoWuF3ULaA7RMfVAxvfQQ9YRvRT3TK4tXmuZtaWi","/ip4/54.39.186.166/tcp/3919/ipfs/16Uiu2HAkzD5n4mtTSddzqVY3wPJZmtvWjARTSpr4JbDX9n9PDJRh","/ip4/54.39.179.134/tcp/3919/ipfs/16Uiu2HAkuxCuWA4zXnsj9R6A3b3a1TKUjQvBpAEaJ98KGdGue67p","/dns4/bst-a01.core.keep.boar.network/tcp/3001/ipfs/16Uiu2HAkzYFHsqbwt64ZztWWK1hyeLntRNqWMYFiZjaKu1PZgikN","/dns4/bst-b01.core.keep.boar.network/tcp/3001/ipfs/16Uiu2HAkxLttmh3G8LYzAy1V1g1b3kdukzYskjpvv5DihY4wvx7D","/dns4/4d00662f-e56d-404a-803a-cac01ada3e15.keep.bison.run/tcp/3919/ipfs/16Uiu2HAmV3HqJjcbKMxHnDxDx4m2iEYynyYdsvU3VwaeE6Zra2P9","/dns4/ec1eb390-124c-4b1b-bcf7-c21709baf2b2.keep.herd.run/tcp/3919/ipfs/16Uiu2HAmVo51PqEZLADehZEbZnrp5A7qjRWFLj9E7DfwZKVhERFt","/dns4/2aa9b786-7360-4c22-ae73-bd95af9c11c5.keep.bison.run/tcp/3919/ipfs/16Uiu2HAm9g3QrQzSvJ8FAhgB1PmjMNgjPd3pDaJJqsdSisGsnaFe"]
   Port = 3919
-  AnnouncedAddresses = ["/ip4/${v['server_ip']}/tcp/3920"]
+  AnnouncedAddresses = ["/ip4/${v['server_ip']}/tcp/3919"]
 
 [Storage]
   DataDir = "/mnt/keep-beacon-client/persistence"`
@@ -75,7 +75,7 @@ const MAINNET_ECDSA_TEMPLATE = (v) =>
   ]
 
 [LibP2P]
-  Peers = ["/dns4/bst-a01.ecdsa.keep.boar.network/tcp/4001/ipfs/16Uiu2HAkzYFHsqbwt64ZztWWK1hyeLntRNqWMYFiZjaKu1PZgikN","/dns4/bst-b01.ecdsa.keep.boar.network/tcp/4001/ipfs/16Uiu2HAkxLttmh3G8LYzAy1V1g1b3kdukzYskjpvv5DihY4wvx7D"]
+  Peers = ["/ip4/127.0.0.1/tcp/3919/ipfs/njOXcNpVTweO3fmX72OTgDX9lfb1AYiiq4BN6Da1tFy9nT3sRT2h1", "/dns4/some-keep-host.com/tcp/3919/ipfs/njOXcNpVTweO3fmX72OTgDX9lfb1AYiiq4BN6Da1tFy9nT3sRT2h1"]
   Port = 3919
 
 [Storage]
@@ -106,7 +106,7 @@ const ROPSTEN_BEACON_TEMPLATE = (v) =>
 [LibP2P]
   Peers = ["/dns4/bootstrap-1.core.keep.test.boar.network/tcp/3001/ipfs/16Uiu2HAkuTUKNh6HkfvWBEkftZbqZHPHi3Kak5ZUygAxvsdQ2UgG","/dns4/bootstrap-2.core.keep.test.boar.network/tcp/3001/ipfs/16Uiu2HAmQirGruZBvtbLHr5SDebsYGcq6Djw7ijF3gnkqsdQs3wK","/dns4/bootstrap-3.test.keep.network/tcp/3919/ipfs/16Uiu2HAm8KJX32kr3eYUhDuzwTucSfAfspnjnXNf9veVhB12t6Vf","/dns4/bootstrap-2.test.keep.network/tcp/3919/ipfs/16Uiu2HAmNNuCp45z5bgB8KiTHv1vHTNAVbBgxxtTFGAndageo9Dp"]
   Port = 3919
-  AnnouncedAddresses = ["/ip4/${v['server_ip']}/tcp/3920"]
+  AnnouncedAddresses = ["/ip4/${v['server_ip']}/tcp/3919"]
 
 [Storage]
   DataDir = "/mnt/keep-beacon-client/persistence"`
