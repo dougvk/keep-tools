@@ -20,7 +20,7 @@ const mainnetTokenTableData = [['Name', 'Address']].concat(
 )
 
 const mainnetBeaconAddresses = [
-  ['TokenStaking', '0x1293a54e160D1cd7075487898d65266081A15458'],
+  ['TokenStaking', '0x6D1140a8c8e6Fac242652F0a5A8171b898c67600'],
   ['KeepRandomBeaconService', '0x50510E691c90EA098e3fdd23C311731BF394aAFd'],
   ['KeepRandomBeaconOperator', '0xdF708431162Ba247dDaE362D2c919e0fbAfcf9DE'],
 ]
@@ -47,9 +47,9 @@ const mainnetECDSATableData = [['Name', 'Address']].concat(
 // Ropsten
 
 const ropstenTokenAddresses = [
-  ['KEEP', '0x343d3DDA00415289CDD4E8030F63a4A5a2548ff9'],
-  ['tBTC', '0x7c07C42973047223F80C4A69Bb62D5195460Eb5F'],
-  ['tBTC Deposit Token (TDT)', '0x7cAad48DF199Cd661762485fc44126F4Fe8A58C9'],
+  ['KEEP', '0x90a1443edd0Ee2fe42DD46D0310E19A8BfB4Ba9d'],
+  ['tBTC', '0x8661B93F1508e01e30D1679cE7817A04fEE2163C'],
+  ['tBTC Deposit Token (TDT)', '0x777eceE852Ab7517d2537726b0e4685339701ea9'],
 ]
 
 const ropstenTokenTableData = [['Name', 'Address']].concat(
@@ -62,9 +62,9 @@ const ropstenTokenTableData = [['Name', 'Address']].concat(
 )
 
 const ropstenBeaconAddresses = [
-  ['TokenStaking', '0x234d2182B29c6a64ce3ab6940037b5C8FdAB608e'],
-  ['KeepRandomBeaconService', '0x6c04499B595efdc28CdbEd3f9ed2E83d7dCCC717'],
-  ['KeepRandomBeaconOperator', '0xC8337a94a50d16191513dEF4D1e61A6886BF410f'],
+  ['TokenStaking', '0x3D6Ef582590D75d1fBe63B379f626DA1f5b2f810'],
+  ['KeepRandomBeaconService', '0x0D3735ED83F812417af32CEDD09772b0Ec43dAf6'],
+  ['KeepRandomBeaconOperator', '0x89361Bd4E69C72194CDcAEcEA3A4df525F22Cb03'],
 ]
 
 const ropstenBeaconTableData = [['Name', 'Address']].concat(
@@ -77,7 +77,7 @@ const ropstenBeaconTableData = [['Name', 'Address']].concat(
 )
 
 const ropstenECDSAAddresses = [
-  ['BondedECDSAKeepFactory', '0x9EcCf03dFBDa6A5E50d7aBA14e0c60c2F6c575E6'],
+  ['BondedECDSAKeepFactory', '0x26dBc9eF92a062c41FB07513313D14Fd54B630e5'],
   ['Sanctioned Applications', '0xc3f96306eDabACEa249D2D22Ec65697f38c6Da69'],
 ]
 
